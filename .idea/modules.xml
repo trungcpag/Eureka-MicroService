@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApiGateway/ApiGateway.iml" filepath="$PROJECT_DIR$/ApiGateway/ApiGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservice-App.iml" filepath="$PROJECT_DIR$/.idea/Microservice-App.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhotoAppApiAccountManagement/PhotoAppApiAccountManagement.iml" filepath="$PROJECT_DIR$/PhotoAppApiAccountManagement/PhotoAppApiAccountManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhotoAppApiUsers/PhotoAppApiUsers.iml" filepath="$PROJECT_DIR$/PhotoAppApiUsers/PhotoAppApiUsers.iml" />
