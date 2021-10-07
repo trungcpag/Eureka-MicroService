@@ -1,7 +1,8 @@
 package com.app.photoappapiusers.service;
 
 import com.app.photoappapiusers.shared.UserDto;
+import org.springframework.security.core.userdetails.UserDetailsService;
 
-public interface UsersService {
+public interface UsersService extends UserDetailsService {
     UserDto createUser(UserDto userDetail);
 }
