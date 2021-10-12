@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="photoAppDiscoveryService" />
         <module name="PhotoAppApiAccountManagement" />
+        <module name="PhotoAppApiConfigServer" />
         <module name="ApiGateway" />
         <module name="PhotoAppApiUsers" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="ApiGateway" target="11" />
       <module name="PhotoAppApiAccountManagement" target="11" />
+      <module name="PhotoAppApiConfigServer" target="11" />
       <module name="PhotoAppApiUsers" target="11" />
       <module name="PhotoAppApiZuulGateway" target="11" />
       <module name="photoAppDiscoveryService" target="11" />
@@ -24,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApiGateway" options="-parameters" />
       <module name="PhotoAppApiAccountManagement" options="-parameters" />
+      <module name="PhotoAppApiConfigServer" options="-parameters" />
       <module name="PhotoAppApiUsers" options="-parameters" />
       <module name="PhotoAppApiZuulGateway" options="-parameters" />
       <module name="photoAppDiscoveryService" options="-parameters" />

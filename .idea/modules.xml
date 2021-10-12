@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ApiGateway/ApiGateway.iml" filepath="$PROJECT_DIR$/ApiGateway/ApiGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservice-App.iml" filepath="$PROJECT_DIR$/.idea/Microservice-App.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhotoAppApiAccountManagement/PhotoAppApiAccountManagement.iml" filepath="$PROJECT_DIR$/PhotoAppApiAccountManagement/PhotoAppApiAccountManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoAppApiConfigServer/PhotoAppApiConfigServer.iml" filepath="$PROJECT_DIR$/PhotoAppApiConfigServer/PhotoAppApiConfigServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhotoAppApiUsers/PhotoAppApiUsers.iml" filepath="$PROJECT_DIR$/PhotoAppApiUsers/PhotoAppApiUsers.iml" />
       <module fileurl="file://$PROJECT_DIR$/photoAppDiscoveryService/photoAppDiscoveryService.iml" filepath="$PROJECT_DIR$/photoAppDiscoveryService/photoAppDiscoveryService.iml" />
     </modules>
