@@ -3,12 +3,12 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/ApiGateway/pom.xml" />
         <option value="$PROJECT_DIR$/PhotoAppApiUsers/pom.xml" />
+        <option value="$PROJECT_DIR$/PhotoAppApiAlbums/pom.xml" />
+        <option value="$PROJECT_DIR$/PhotoAppApiConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/photoAppDiscoveryService/pom.xml" />
         <option value="$PROJECT_DIR$/PhotoAppApiAccountManagement/pom.xml" />
-        <option value="$PROJECT_DIR$/ApiGateway/pom.xml" />
-        <option value="$PROJECT_DIR$/PhotoAppApiConfigServer/pom.xml" />
-        <option value="$PROJECT_DIR$/PhotoAppApiAlbums/pom.xml" />
       </list>
     </option>
   </component>

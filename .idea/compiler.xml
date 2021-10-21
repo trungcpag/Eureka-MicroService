@@ -20,7 +20,6 @@
       <module name="PhotoAppApiAlbums" target="1.8" />
       <module name="PhotoAppApiConfigServer" target="11" />
       <module name="PhotoAppApiUsers" target="11" />
-      <module name="PhotoAppApiZuulGateway" target="11" />
       <module name="photoAppDiscoveryService" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -31,7 +30,6 @@
       <module name="PhotoAppApiAlbums" options="-parameters" />
       <module name="PhotoAppApiConfigServer" options="-parameters" />
       <module name="PhotoAppApiUsers" options="-parameters" />
-      <module name="PhotoAppApiZuulGateway" options="-parameters" />
       <module name="photoAppDiscoveryService" options="-parameters" />
     </option>
   </component>
