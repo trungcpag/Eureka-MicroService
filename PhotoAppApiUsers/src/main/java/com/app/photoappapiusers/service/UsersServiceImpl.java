@@ -72,6 +72,7 @@ public class UsersServiceImpl implements UsersService{
 //        ResponseEntity<List<AlbumResponseModel>> albumsListResponse = restTemplate.exchange(albumsUrl, HttpMethod.GET, null, new ParameterizedTypeReference<List<AlbumResponseModel>>() {
 //        });
 //        List<AlbumResponseModel> albumResponseModels = albumsListResponse.getBody();
+        logger.info("start call service");
         List<AlbumResponseModel> albumResponseModels = null;
 
         try {
@@ -79,7 +80,7 @@ public class UsersServiceImpl implements UsersService{
         }catch (FeignException e){
             logger.error(e.getMessage());
         }
-
+        logger.info("end call service");
         userDto.setAlbums(albumResponseModels);
         return userDto;
     }

@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f38084c2-938e-4c82-b48d-c7958667fe03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_12_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_brave_2_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_activemq_client_2_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka_2_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_api_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_instrumentation_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_3_0_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppApiUsers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppApiUsers/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/java/com/app/photoappapiusers/PhotoAppApiUsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/java/com/app/photoappapiusers/PhotoAppApiUsersApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/java/com/app/photoappapiusers/data/AlbumsServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/java/com/app/photoappapiusers/data/AlbumsServiceClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/java/com/app/photoappapiusers/service/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/java/com/app/photoappapiusers/service/UsersServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -70,6 +66,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ApiGateway" />
       <extension name="coverage">
@@ -138,9 +145,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.PhotoAppApiUsersApplication" />
+        <item itemvalue="Spring Boot.PhotoAppApiAlbumsApplication" />
         <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.PhotoAppDiscoveryServiceApplication" />
-        <item itemvalue="Spring Boot.PhotoAppApiAlbumsApplication" />
         <item itemvalue="Spring Boot.PhotoAppApiConfigServerApplication" />
       </list>
     </recent_temporary>
@@ -155,7 +162,8 @@
       <updated>1634822151923</updated>
       <workItem from="1634822158468" duration="2423000" />
       <workItem from="1634906714213" duration="3277000" />
-      <workItem from="1634982791022" duration="2989000" />
+      <workItem from="1634982791022" duration="3265000" />
+      <workItem from="1635060394146" duration="4057000" />
     </task>
     <servers />
   </component>
