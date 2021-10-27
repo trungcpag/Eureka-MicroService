@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f38084c2-938e-4c82-b48d-c7958667fe03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoAppApiAccountManagement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppApiAccountManagement/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppApiAlbums/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppApiAlbums/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoAppApiUsers/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photoAppDiscoveryService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/photoAppDiscoveryService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photoAppDiscoveryService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/photoAppDiscoveryService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +61,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ApiGateway" />
       <extension name="coverage">
@@ -165,7 +148,8 @@
       <workItem from="1634906714213" duration="3277000" />
       <workItem from="1634982791022" duration="3265000" />
       <workItem from="1635060394146" duration="4992000" />
-      <workItem from="1635165201927" duration="2800000" />
+      <workItem from="1635165201927" duration="2868000" />
+      <workItem from="1635340240137" duration="920000" />
     </task>
     <servers />
   </component>
